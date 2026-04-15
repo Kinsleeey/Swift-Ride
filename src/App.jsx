@@ -57,8 +57,8 @@ function App() {
                 <p>Fast, reliable dispatch at your fingertips.</p>
             </div>
             <div className="choice-grid">
-                <HomeOption addClass="accent-card" click={() => go('s2-ride')} image="/undraw_on-the-way_zwi3 (1).svg" mainText="I need a ride" subText="Go anywhere, anytime" />
-                <HomeOption click={() => go('s2-errand')} image="/undraw_empty_4zx0 (1).svg" mainText="Run an errand" subText="Pick up, deliver, buy" />
+                <HomeOption addClass="accent-card" click={() => go('s2-ride')} image="/ride.svg" mainText="I need a ride" subText="Go anywhere, anytime" />
+                <HomeOption click={() => go('s2-errand')} image="/errand.svg" mainText="Run an errand" subText="Pick up, deliver, buy" />
             </div>
             <div className="section-label">Quick access</div>
             <div className="option-list">
